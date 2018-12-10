@@ -1,0 +1,111 @@
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .menuIcon {
+        display: block;
+        font-size: 40px;
+        color: #fff;
+    }
+    .mainHeader__nav {
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    .mainHeader__list {
+        flex-direction: column;
+        width: 100%;
+        background: #464444;
+        margin-top: 10px;
+        border-radius: 10px;
+        display: none;
+    }
+    .mainHeader__list__item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1px;
+    }
+    .mainHeader__slider__list__item:not(:nth-of-type(2)) {
+        display: none;
+    }
+    .mainHeader__slider__list {
+        width: 100%;
+        position: static;
+    }
+    .mainHeader__slider__list__item:nth-of-type(2) {
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 50px;
+    }
+    .mainHeader__slider__article {
+        width: 100%;
+    }
+    .mainHeader__slider__imageCont {
+        width: 100%;
+        border-radius: 5px;
+        border-width: 10px;
+        margin-top: 25px;
+    }
+    .mainHeader__slider__imageCont img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .mainHeader__slider__btnLeftArrow, .mainHeader__slider__btnRightArrow {
+        display: none;
+    }
+    .block {
+        display: block;
+    }
+
+    /*------ Service Boxes -------*/
+    .serviceBoxesCont__serviceBox {
+        width: 49%;
+    }
+    .serviceBoxesCont__serviceBox__imgCont {
+        width: 100%;
+        height: 150px;
+    }
+
+    /*----- Portfolio Boxes -----*/
+    .portfolioBoxesCont__portfolioBox {
+        width: 49%;
+        height: 290px;
+    }
+    /*------ Footer Items ------*/
+    .mainFooter__top__list {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 680px) {
+    .serviceBoxesCont__serviceBox {
+        width: 100%;
+    }
+    .serviceBoxesCont__serviceBox__imgCont {
+        height: 280px;
+    }
+    .portfolioBoxesCont__portfolioBox {
+        width: 100%;
+    }
+    .mainFooter__top__list {
+        width: 100%;
+    }
+    .mainFooter__top {
+        padding-bottom: 0px;
+    }
+    .mainFooter__top__list:nth-of-type(4) li input[type='submit'] {
+        width: 100%;
+    }
+    .mainFooter__bottom .container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+}
